@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34294C9820FEEA0100298C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294C9720FEEA0100298C73 /* AppDelegate.swift */; };
+		34294C9A20FEEA0100298C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294C9920FEEA0100298C73 /* ViewController.swift */; };
+		34294C9D20FEEA0100298C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34294C9B20FEEA0100298C73 /* Main.storyboard */; };
+		34294C9F20FEEA0200298C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34294C9E20FEEA0200298C73 /* Assets.xcassets */; };
+		34294CA220FEEA0200298C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34294CA020FEEA0200298C73 /* LaunchScreen.storyboard */; };
+		34294CB620FF175800298C73 /* WHHPhotoAlbumHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294CB520FF175800298C73 /* WHHPhotoAlbumHomeVC.swift */; };
+		34294CB920FF213E00298C73 /* WHHPhotoAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294CB820FF213E00298C73 /* WHHPhotoAlbumModel.swift */; };
+		34294CBC20FF2F0A00298C73 /* WHHPhotoAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294CBB20FF2F0A00298C73 /* WHHPhotoAlbumCell.swift */; };
+		34294CBE20FF38FF00298C73 /* WHHPhotoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34294CBD20FF38FF00298C73 /* WHHPhotoListVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34294C9420FEEA0100298C73 /* WHHSecretPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHHSecretPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34294C9720FEEA0100298C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34294C9920FEEA0100298C73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34294C9C20FEEA0100298C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34294C9E20FEEA0200298C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34294CA120FEEA0200298C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34294CA320FEEA0200298C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34294CB520FF175800298C73 /* WHHPhotoAlbumHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHPhotoAlbumHomeVC.swift; sourceTree = "<group>"; };
+		34294CB820FF213E00298C73 /* WHHPhotoAlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHPhotoAlbumModel.swift; sourceTree = "<group>"; };
+		34294CBB20FF2F0A00298C73 /* WHHPhotoAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHPhotoAlbumCell.swift; sourceTree = "<group>"; };
+		34294CBD20FF38FF00298C73 /* WHHPhotoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHPhotoListVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34294C9120FEEA0100298C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34294C8B20FEEA0100298C73 = {
+			isa = PBXGroup;
+			children = (
+				34294C9620FEEA0100298C73 /* WHHSecretPhotoAlbum */,
+				34294C9520FEEA0100298C73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34294C9520FEEA0100298C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34294C9420FEEA0100298C73 /* WHHSecretPhotoAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34294C9620FEEA0100298C73 /* WHHSecretPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				34294CAC20FEF09400298C73 /* PhotoAlbum */,
+				34294CA920FEEC5B00298C73 /* Acount */,
+				34294C9720FEEA0100298C73 /* AppDelegate.swift */,
+				34294C9920FEEA0100298C73 /* ViewController.swift */,
+				34294C9B20FEEA0100298C73 /* Main.storyboard */,
+				34294C9E20FEEA0200298C73 /* Assets.xcassets */,
+				34294CA020FEEA0200298C73 /* LaunchScreen.storyboard */,
+				34294CA320FEEA0200298C73 /* Info.plist */,
+			);
+			path = WHHSecretPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		34294CA920FEEC5B00298C73 /* Acount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Acount;
+			sourceTree = "<group>";
+		};
+		34294CAC20FEF09400298C73 /* PhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				34294CBA20FF2EDF00298C73 /* View */,
+				34294CB720FF1F8300298C73 /* Model */,
+				34294CB520FF175800298C73 /* WHHPhotoAlbumHomeVC.swift */,
+				34294CBD20FF38FF00298C73 /* WHHPhotoListVC.swift */,
+			);
+			path = PhotoAlbum;
+			sourceTree = "<group>";
+		};
+		34294CB720FF1F8300298C73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34294CB820FF213E00298C73 /* WHHPhotoAlbumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34294CBA20FF2EDF00298C73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34294CBB20FF2F0A00298C73 /* WHHPhotoAlbumCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34294C9320FEEA0100298C73 /* WHHSecretPhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34294CA620FEEA0200298C73 /* Build configuration list for PBXNativeTarget "WHHSecretPhotoAlbum" */;
+			buildPhases = (
+				34294C9020FEEA0100298C73 /* Sources */,
+				34294C9120FEEA0100298C73 /* Frameworks */,
+				34294C9220FEEA0100298C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHHSecretPhotoAlbum;
+			productName = WHHSecretPhotoAlbum;
+			productReference = 34294C9420FEEA0100298C73 /* WHHSecretPhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34294C8C20FEEA0100298C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = whh;
+				TargetAttributes = {
+					34294C9320FEEA0100298C73 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 34294C8F20FEEA0100298C73 /* Build configuration list for PBXProject "WHHSecretPhotoAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34294C8B20FEEA0100298C73;
+			productRefGroup = 34294C9520FEEA0100298C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34294C9320FEEA0100298C73 /* WHHSecretPhotoAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34294C9220FEEA0100298C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34294CA220FEEA0200298C73 /* LaunchScreen.storyboard in Resources */,
+				34294C9F20FEEA0200298C73 /* Assets.xcassets in Resources */,
+				34294C9D20FEEA0100298C73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34294C9020FEEA0100298C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34294CBC20FF2F0A00298C73 /* WHHPhotoAlbumCell.swift in Sources */,
+				34294CBE20FF38FF00298C73 /* WHHPhotoListVC.swift in Sources */,
+				34294CB620FF175800298C73 /* WHHPhotoAlbumHomeVC.swift in Sources */,
+				34294C9A20FEEA0100298C73 /* ViewController.swift in Sources */,
+				34294CB920FF213E00298C73 /* WHHPhotoAlbumModel.swift in Sources */,
+				34294C9820FEEA0100298C73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34294C9B20FEEA0100298C73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34294C9C20FEEA0100298C73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34294CA020FEEA0200298C73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34294CA120FEEA0200298C73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34294CA420FEEA0200298C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34294CA520FEEA0200298C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34294CA720FEEA0200298C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2FTEL4A55;
+				INFOPLIST_FILE = WHHSecretPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whh.StudyC.WHHSecretPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34294CA820FEEA0200298C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2FTEL4A55;
+				INFOPLIST_FILE = WHHSecretPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whh.StudyC.WHHSecretPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34294C8F20FEEA0100298C73 /* Build configuration list for PBXProject "WHHSecretPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34294CA420FEEA0200298C73 /* Debug */,
+				34294CA520FEEA0200298C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34294CA620FEEA0200298C73 /* Build configuration list for PBXNativeTarget "WHHSecretPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34294CA720FEEA0200298C73 /* Debug */,
+				34294CA820FEEA0200298C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34294C8C20FEEA0100298C73 /* Project object */;
+}
